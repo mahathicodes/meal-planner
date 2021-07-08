@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Meal Planner</title>
+	<link rel="stylesheet" href="css/planner.css">
+	<script src="js/planner.js"></script>
+</head>
+<body>
+<h1>Meal Planner</h1>
+<table class="center">
+	<tr>
+		<th>Day</th>
+		<th>Breakfast</th>
+		<th>Lunch</th>
+		<th>Dinner</th>
+	</tr>
+	<tr>
+		<td>Sunday</td>
+		<td id='sunb'></td>
+		<td id='sunl'></td>
+		<td id='sund'></td>
+	</tr>
+	<tr>
+		<td>Monday</td>
+		<td id="monb"></td>
+		<td id="monl"></td>
+		<td id="mond"></td>
+	</tr>
+	<tr>
+		<td>Tuesday</td>
+		<td id="tueb"></td>
+		<td id="tuel"></td>
+		<td id="tued"></td>
+	</tr>
+	<tr>
+		<td>Wednesday</td>
+		<td id="wedb"></td>
+		<td id="wedl"></td>
+		<td id="wedd"></td>
+	</tr>
+	<tr>
+		<td>Thursday</td>
+		<td id="thub"></td>
+		<td id="thul"></td>
+		<td id="thud"></td>
+	</tr>
+	<tr>
+		<td>Friday</td>
+		<td id="frib"></td>
+		<td id="fril"></td>
+		<td id="frid"></td>
+	</tr>
+	<tr>
+		<td>Saturday</td>
+		<td id="satb"></td>
+		<td id="satl"></td>
+		<td id="satd"></td>
+	</tr>
+</table>
+
+<div class="button-container-div">
+	<button type="button" onclick="generateBreakfast(), generateLunch(), generateDinner()">Generate</button>
+</div>
+</body>
+</html>
